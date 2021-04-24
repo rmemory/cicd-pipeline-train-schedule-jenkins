@@ -10,9 +10,9 @@ node {
 	//version = "12.22.1"
 	//npmVersion = "6.14.1"
 	// Set the work directory for unpacking node
-        workDir = file("${project.buildDir}/nodejs")
+        //workDir = file("${project.buildDir}/nodejs")
         // Set the work directory for NPM
-        npmWorkDir = file("${project.buildDir}/npm")
+        //npmWorkDir = file("${project.buildDir}/npm")
 }
 
 //declare a build task
